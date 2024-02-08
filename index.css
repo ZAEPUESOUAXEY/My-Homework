@@ -1,0 +1,78 @@
+/* Resetting default margin and padding for all elements */
+
+body {
+    text-align: center;
+    background-image: url(../20w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html [Attributes Style] {
+    -webkit-locale: "en";
+}
+
+:root {
+    view-transition-name: root;
+}
+
+html {
+    display: block;
+}
+
+/* Styling the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+*li{
+    list-style: none;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling main sections */
+main {
+    padding: 20px;
+    background-image: url(../20w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: #ffffff;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Styling the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
